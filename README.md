@@ -52,9 +52,13 @@ After dependency installation use the xcworkspace instead of xcodeproj.
 
 References -
 https://www.youtube.com/watch?v=iEAjvNRdZa0
+
 https://www.youtube.com/watch?v=H-zK1mEwTe0
+
 http://stackoverflow.com/questions/30812777/cannot-install-cocoa-pods-after-uninstalling-results-in-error/30851030#30851030
+
 http://stackoverflow.com/questions/26351086/how-to-update-a-single-pod-without-touching-other-dependencies
+
 http://stackoverflow.com/questions/34556991/pod-install-displaying-error-in-cocoapods-version-1-0-0-beta-1
 
 
