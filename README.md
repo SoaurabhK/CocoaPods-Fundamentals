@@ -53,5 +53,4 @@ http://stackoverflow.com/questions/30812777/cannot-install-cocoa-pods-after-unin
 http://stackoverflow.com/questions/26351086/how-to-update-a-single-pod-without-touching-other-dependencies
 http://stackoverflow.com/questions/34556991/pod-install-displaying-error-in-cocoapods-version-1-0-0-beta-1
 
-Thanks!!!
 
