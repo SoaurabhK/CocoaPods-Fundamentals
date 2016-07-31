@@ -18,8 +18,9 @@ or start with empty file
 What's Inside Podfile
 
     platform :osx, '10.7'
+    use_frameworks!
     target “SkyFontsService” do
-        pod 'PubNub', '3.7.11'
+    pod 'PubNub', '3.7.11'
     end
 
 
@@ -37,6 +38,20 @@ Installing Same Pods for Multiple Targets
     target 'MyUITests' do
         testing_pods
     end
+
+Installing pod to a specific project-target in a workspace
+And, For multiple targets we can use the same technique as mentioned above
+
+```
+workspace 'MyWorkSpace.xcworkspace'
+use_frameworks!
+
+target "TargetName" do
+	platform :osx, '10.7'
+	project "ProjectDir/Project.xcodeproj"
+    pod 'PubNub', '3.7.11'
+end
+```    
 
 // To search for libraries using terminal
 
@@ -60,5 +75,13 @@ http://stackoverflow.com/questions/30812777/cannot-install-cocoa-pods-after-unin
 http://stackoverflow.com/questions/26351086/how-to-update-a-single-pod-without-touching-other-dependencies
 
 http://stackoverflow.com/questions/34556991/pod-install-displaying-error-in-cocoapods-version-1-0-0-beta-1
+
+http://stackoverflow.com/questions/22429383/how-do-i-configure-my-project-for-cocoa-pods-correctly
+
+http://stackoverflow.com/questions/26394463/cocoapods-in-subproject
+
+https://github.com/CocoaPods/CocoaPods/issues/738#issuecomment-15675099
+
+https://github.com/CocoaPods/CocoaPods
 
 
