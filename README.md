@@ -85,3 +85,5 @@ https://github.com/CocoaPods/CocoaPods/issues/738#issuecomment-15675099
 https://github.com/CocoaPods/CocoaPods
 
 https://github.com/CocoaPods/CocoaPods/issues/2413
+
+http://stackoverflow.com/questions/30244675/how-can-i-modify-other-ldflags-via-cocoapods-post-install-hook
