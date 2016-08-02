@@ -84,4 +84,4 @@ https://github.com/CocoaPods/CocoaPods/issues/738#issuecomment-15675099
 
 https://github.com/CocoaPods/CocoaPods
 
-
+https://github.com/CocoaPods/CocoaPods/issues/2413
